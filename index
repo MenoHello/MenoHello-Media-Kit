@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="robots" content="noindex, nofollow">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="MenoHello affiliate and brand partnership media kit: evidence-based menopause education, audience reach, content performance and collaboration opportunities.">
+  <title>MenoHello | Media Kit &amp; Partnerships</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --blush: #ffe9e5;
+      --coral: #ffa798;
+      --berry: #c03558;
+      --purple: #6b3fa0;
+      --purple-muted: #8e599c;
+      --warm-white: #fef9f7;
+      --paper: #ffffff;
+      --ink: #342e31;
+      --muted: #70666a;
+      --line: #ead8d5;
+      --shadow: 0 12px 36px rgba(89, 59, 56, .08);
+      --card-bg: #fef9f7;
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      padding: 32px 18px;
+      background: #f8f4f2;
+      color: var(--ink);
+      font-family: 'Poppins', sans-serif;
+      line-height: 1.65;
+      -webkit-font-smoothing: antialiased;
+    }
+    a { color: var(--berry); text-decoration-thickness: 1px; text-underline-offset: 3px; }
+    a:hover { color: var(--purple); }
+    .page {
+      width: min(100%, 850px);
+      margin: 0 auto;
+      overflow: hidden;
+      background: var(--paper);
+      border-radius: 18px;
+      box-shadow: var(--shadow);
+    }
+    .hero {
+      position: relative;
+      padding: 54px 52px 48px;
+      text-align: center;
+      background: var(--warm-white);
+      border-bottom: 1px solid var(--line);
+      overflow: hidden;
+    }
+    .hero::before, .hero::after {
+      content: '';
+      position: absolute;
+      border: 1px solid rgba(192, 53, 88, .08);
+      border-radius: 50%;
+      pointer-events: none;
+    }
+    .hero::before { width: 210px; height: 210px; top: -130px; left: -75px; }
+    .hero::after { width: 260px; height: 260px; right: -150px; bottom: -190px; }
+    .eyebrow {
+      margin: 0 0 10px;
+      color: var(--purple);
+      font-size: .72rem;
+      font-weight: 600;
+      letter-spacing: .16em;
+      text-transform: uppercase;
+    }
+    .brand {
+      margin: 0;
+      color: var(--berry);
+      font-size: clamp(2.6rem, 8vw, 4.1rem);
+      font-weight: 700;
+      letter-spacing: -.065em;
+      line-height: 1.12;
+    }
+    .hero h2 {
+      max-width: 620px;
+      margin: 15px auto 12px;
+      color: var(--purple);
+      font-size: clamp(1.05rem, 3vw, 1.42rem);
+      font-weight: 500;
+      line-height: 1.4;
+    }
+    .hero .intro {
+      max-width: 610px;
+      margin: 0 auto;
+      color: var(--ink);
+      font-size: .94rem;
+      font-weight: 400;
+    }
+    .hero-meta {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 9px;
+      margin-top: 23px;
+    }
+    .hero-meta span {
+      padding: 6px 12px;
+      border: 1px solid var(--line);
+      border-radius: 30px;
+      color: var(--muted);
+      background: #ffffff;
+      font-size: .72rem;
+      font-weight: 500;
+    }
+    .section { padding: 35px 46px; border-bottom: 1px solid var(--line); }
+    .section:last-of-type { border-bottom: 0; }
+    .section-heading { display: flex; align-items: center; gap: 12px; margin: 0 0 18px; }
+    .section-heading::before { content: ''; width: 3px; height: 25px; flex: 0 0 3px; border-radius: 0; background: var(--berry); }
+    h2.section-title { margin: 0; color: var(--berry); font-size: 1.28rem; font-weight: 600; line-height: 1.35; }
+    h3 { margin: 0 0 8px; color: var(--purple); font-size: 1rem; font-weight: 600; }
+    p { margin: 0 0 12px; font-size: .9rem; }
+    p:last-child { margin-bottom: 0; }
+    .muted { color: var(--muted); }
+    .about-grid { display: grid; grid-template-columns: .9fr 1.5fr; gap: 28px; align-items: start; }
+    .founder-card { padding: 20px; border-radius: 12px; background: var(--card-bg); border: 1px solid var(--line); }
+    .founder-card .name { color: var(--berry); font-size: 1.02rem; font-weight: 600; line-height: 1.45; }
+    .founder-card .credential { margin-top: 7px; color: var(--muted); font-size: .78rem; }
+    .founder-card .founded { margin-top: 15px; padding-top: 13px; border-top: 1px solid var(--line); font-size: .8rem; }
+    .metrics-note { margin: -5px 0 19px; color: var(--muted); font-size: .76rem; }
+    .metrics-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; }
+    .metric {
+      min-height: 118px;
+      padding: 18px 12px 15px;
+      text-align: center;
+      border-radius: 12px;
+      background: var(--card-bg);
+      border: 1px solid var(--line);
+      border-top: 3px solid var(--berry);
+    }
+    .metric:nth-child(2), .metric:nth-child(5) { border-top-color: var(--purple); }
+    .metric:nth-child(3), .metric:nth-child(6) { border-top-color: var(--berry); }
+    .metric-value { display: block; color: var(--berry); font-size: clamp(1.45rem, 4vw, 1.9rem); font-weight: 700; letter-spacing: -.04em; line-height: 1.25; }
+    .metric:nth-child(2) .metric-value, .metric:nth-child(5) .metric-value { color: var(--purple); }
+    .metric-label { display: block; margin-top: 7px; color: #594f53; font-size: .73rem; line-height: 1.45; }
+    .metric-source { display: block; margin-top: 4px; color: #897e82; font-size: .64rem; }
+    .table-wrap { overflow-x: auto; border: 1px solid var(--line); border-radius: 11px; }
+    table { width: 100%; border-collapse: collapse; font-size: .81rem; }
+    th { padding: 12px 15px; background: var(--berry); color: #fff; text-align: left; font-weight: 600; }
+    td { padding: 11px 15px; border-bottom: 1px solid var(--line); vertical-align: top; }
+    tbody tr:nth-child(even) { background: #fffdfc; }
+    tbody tr:last-child td { border-bottom: 0; }
+    td.views { width: 125px; color: var(--purple); font-weight: 600; text-align: right; white-space: nowrap; }
+    .content-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 13px; }
+    .content-card { padding: 17px 18px; border: 1px solid var(--line); border-radius: 11px; background: var(--card-bg); }
+    .content-card p { color: var(--muted); font-size: .8rem; }
+    .tool-highlight { display: flex; align-items: center; gap: 17px; margin-top: 16px; padding: 17px 19px; border-radius: 12px; background: var(--card-bg); border: 1px solid var(--line); }
+    .tool-number { flex: 0 0 auto; color: var(--berry); font-size: 2.15rem; font-weight: 700; line-height: 1; }
+    .tool-highlight p { margin: 0; color: var(--ink); font-size: .82rem; }
+    .social-stats { display: grid; grid-template-columns: repeat(2, 1fr); gap: 12px; margin-top: 16px; }
+    .social-card { padding: 15px 17px; background: var(--card-bg); border: 1px solid var(--line); border-radius: 10px; }
+    .social-card strong { display: block; color: var(--purple); font-size: 1.45rem; line-height: 1.3; }
+    .social-card span { color: var(--muted); font-size: .75rem; }
+    .audience-note { padding: 16px 18px; border-left: 3px solid var(--berry); background: #fffdfc; color: var(--muted); font-size: .82rem; }
+    .partnership { background: var(--paper); }
+    .partnership-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-top: 18px; }
+    .partnership ul { margin: 8px 0 0; padding-left: 19px; }
+    .partnership li { margin: 5px 0; color: #5f5559; font-size: .82rem; }
+    .principle { margin-top: 18px; padding: 15px 18px; border-radius: 10px; background: #f6f0f8; border: 1px solid var(--line); color: var(--ink); font-size: .82rem; }
+    .contact { padding: 32px 46px; text-align: center; background: var(--card-bg); border-top: 1px solid var(--line); }
+    .contact h2 { margin: 0 0 8px; color: var(--berry); font-size: 1.35rem; }
+    .contact p { color: var(--muted); font-size: .84rem; }
+    .contact-links { display: flex; justify-content: center; flex-wrap: wrap; gap: 10px 22px; margin-top: 15px; font-size: .84rem; font-weight: 600; }
+    .contact-links a { color: var(--purple); }
+    .footer { padding: 16px 25px; text-align: center; color: var(--muted); background: #ffffff; border-top: 1px solid var(--line); font-size: .7rem; }
+    .footer p { margin: 0; font-size: inherit; }
+    .print-button { position: fixed; right: 22px; bottom: 22px; padding: 11px 17px; border: 0; border-radius: 30px; background: var(--berry); color: #fff; font: 500 .82rem 'Poppins', sans-serif; box-shadow: 0 5px 18px rgba(80, 30, 45, .2); cursor: pointer; }
+    .print-button:hover { background: var(--purple); }
+    @media (max-width: 650px) {
+      body { padding: 0; background: white; }
+      .page { border-radius: 0; box-shadow: none; }
+      .hero { padding: 43px 23px 37px; }
+      .section { padding: 28px 23px; }
+      .about-grid { grid-template-columns: 1fr; gap: 17px; }
+      .metrics-grid { grid-template-columns: repeat(2, 1fr); gap: 9px; }
+      .metric { min-height: 108px; padding: 15px 8px; }
+      .content-grid, .partnership-grid { grid-template-columns: 1fr; }
+      .contact { padding: 28px 23px; }
+      .contact-links { flex-direction: column; gap: 8px; }
+      td, th { padding: 10px 11px; }
+      table { font-size: .75rem; }
+      .print-button { right: 13px; bottom: 13px; }
+    }
+    @page { 
+  size: letter; 
+  margin: 0.3in 0.4in; 
+}
+@media print {
+  body { 
+    padding: 0 !important; 
+    background: #ffffff !important; 
+    font-size: 8.5pt !important; 
+    line-height: 1.4 !important;
+  }
+  .page { 
+    width: 100% !important; 
+    max-width: none !important; 
+    border-radius: 0 !important; 
+    box-shadow: none !important; 
+  }
+  .hero { 
+    padding: 20px 25px 15px !important; 
+    background: #fdfbfb !important;
+  }
+  .brand { font-size: 2.2rem !important; }
+  .hero h2 { font-size: 1.05rem !important; margin: 6px auto 6px !important; }
+  .hero .intro { font-size: 0.85rem !important; }
+  .hero-meta { margin-top: 12px !important; gap: 6px !important; }
+  .hero-meta span { padding: 3px 8px !important; font-size: 0.68rem !important; }
+  
+  .section { 
+    padding: 14px 25px !important; 
+    break-inside: auto !important; /* Allows sections to flow smoothly without massive gaps */
+  }
+  .section-heading { margin-bottom: 10px !important; }
+  h2.section-title { font-size: 1.1rem !important; }
+  p { margin-bottom: 6px !important; font-size: 0.82rem !important; }
+  
+  .metrics-grid { gap: 8px !important; }
+  .metric { 
+    min-height: 0 !important; 
+    padding: 10px 6px 8px !important; 
+  }
+  .metric-value { font-size: 1.3rem !important; }
+  .metric-label { font-size: 0.68rem !important; margin-top: 3px !important; }
+  
+  .table-wrap table { font-size: 0.78rem !important; }
+  th, td { padding: 6px 10px !important; }
+  
+  .content-grid, .partnership-grid { gap: 8px !important; }
+  .content-card, .founder-card, .social-card { padding: 10px 12px !important; }
+  .tool-highlight { margin-top: 10px !important; padding: 10px 14px !important; }
+  .audience-note, .principle { margin-top: 10px !important; padding: 10px 14px !important; }
+  
+  .contact { padding: 18px 25px !important; }
+  .contact h2 { font-size: 1.15rem !important; }
+  .footer { padding: 10px 25px !important; }
+  
+  .print-button { display: none !important; }
+  a { color: inherit !important; text-decoration: none !important; }
+  * { -webkit-print-color-adjust: exact !important; print-color-adjust: exact !important; }
+}
+  </style>
+</head>
+<body>
+  <main class="page">
+    <header class="hero">
+      <p class="eyebrow">Independent health education · Founded 2024</p>
+      <h1 class="brand">MenoHello</h1>
+      <h2>Evidence-Based Menopause Education &amp; Midlife Resources</h2>
+      <p class="intro">Translating menopause science into practical information, useful tools, and trusted resources for people navigating perimenopause, menopause, and midlife health.</p>
+      <div class="hero-meta" aria-label="Platform highlights">
+        <span>Independent publisher</span>
+        <span>Evidence-based education</span>
+        <span>Perimenopause &amp; menopause</span>
+      </div>
+    </header>
+
+    <section class="section" aria-labelledby="about-title">
+      <div class="section-heading"><h2 class="section-title" id="about-title">About MenoHello</h2></div>
+      <div class="about-grid">
+        <div class="founder-card">
+          <div class="name">Theresa Mount, MS</div>
+          <div class="credential">Board-Certified Pathologists’ Assistant (ASCP)<br>Founder &amp; Editor</div>
+          <div class="founded"><strong>Founded</strong><br>2024</div>
+        </div>
+        <div>
+          <p>MenoHello is an independent health education platform focused on perimenopause, menopause, and midlife wellness. Founded by Theresa Mount, a board-certified Pathologists’ Assistant with a background in biology and pathology, the platform makes complex health information easier to understand and apply.</p>
+          <p>Through in-depth symptom guides, hormone health education, interactive tools, and practical resource navigation, MenoHello helps readers investigate unfamiliar symptoms, understand their options, and make more informed decisions about midlife health.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="performance-title">
+      <div class="section-heading"><h2 class="section-title" id="performance-title">Audience &amp; Search Performance</h2></div>
+      <p class="metrics-note">Verified reporting period: August 8–November 5, 2026 · GA4 and Google Search Console</p>
+      <div class="metrics-grid">
+        <div class="metric"><span class="metric-value">17,133</span><span class="metric-label">Total sessions</span><span class="metric-source">GA4 · 90 days</span></div>
+        <div class="metric"><span class="metric-value">10,380</span><span class="metric-label">Organic Search sessions</span><span class="metric-source">GA4 · 90 days</span></div>
+        <div class="metric"><span class="metric-value">60.6%</span><span class="metric-label">Sessions from Organic Search</span><span class="metric-source">Calculated from GA4 sessions</span></div>
+        <div class="metric"><span class="metric-value">4,063</span><span class="metric-label">Google Search clicks</span><span class="metric-source">Search Console · 90 days</span></div>
+        <div class="metric"><span class="metric-value">242,523</span><span class="metric-label">Google Search impressions</span><span class="metric-source">Search Console · 90 days</span></div>
+        <div class="metric"><span class="metric-value">49.4%</span><span class="metric-label">Organic Search engagement rate</span><span class="metric-source">GA4 · 90 days</span></div>
+      </div>
+      <p class="muted" style="margin-top:13px;font-size:.72rem">GA4 sessions and Search Console clicks are different measurements and are reported separately. The organic share is calculated as Organic Search sessions divided by total sessions.</p>
+    </section>
+
+    <section class="section" aria-labelledby="articles-title">
+      <div class="section-heading"><h2 class="section-title" id="articles-title">Top-Performing Content</h2></div>
+      <p class="muted" style="margin-bottom:16px">Readers discover MenoHello through focused, symptom-led education as well as hormone health and treatment topics. The examples below illustrate the range of questions bringing readers to the platform.</p>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th scope="col">Article</th><th scope="col" style="text-align:right">90-day page views</th></tr></thead>
+          <tbody>
+            <tr><td>Phantom smells and menopause</td><td class="views">3,392</td></tr>
+            <tr><td>Estradiol and bone health</td><td class="views">1,379</td></tr>
+            <tr><td>Monitoring estradiol levels during HRT</td><td class="views">700</td></tr>
+            <tr><td>Facial twitching and menopause</td><td class="views">549</td></tr>
+            <tr><td>Formication and menopausal symptoms</td><td class="views">513</td></tr>
+            <tr><td>Raynaud’s syndrome and menopause</td><td class="views">426</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="muted" style="margin-top:10px;font-size:.72rem">Page views are GA4 content-performance figures for the 90-day reporting period. Article titles are descriptive labels.</p>
+    </section>
+
+    <section class="section" aria-labelledby="coverage-title">
+      <div class="section-heading"><h2 class="section-title" id="coverage-title">Content &amp; Resource Coverage</h2></div>
+      <div class="content-grid">
+        <div class="content-card"><h3>Symptoms &amp; Changes</h3><p>In-depth coverage of familiar and less-recognized symptoms, including neurological, sensory, sleep, musculoskeletal, and metabolic changes.</p></div>
+        <div class="content-card"><h3>Hormones &amp; HRT</h3><p>Practical education about estrogen, progesterone, testosterone, hormone therapy options, and related health considerations.</p></div>
+        <div class="content-card"><h3>Midlife Wellness</h3><p>Evidence-informed resources covering nutrition, weight management, metabolic health, movement, and everyday symptom management.</p></div>
+        <div class="content-card"><h3>Tools &amp; Navigation</h3><p>Interactive experiences and curated resources that help readers explore symptoms, understand options, and find relevant support.</p></div>
+      </div>
+      <div class="tool-highlight"><div class="tool-number">14</div><p><strong>Interactive tools and quizzes</strong><br>Practical resources designed to turn health information into useful next steps.</p></div>
+      <div class="tool-highlight" style="background:#f4edf7"><div class="tool-number" style="color:var(--purple)">~100</div><p><strong>Educational articles</strong><br>A growing library of original content across perimenopause, menopause, and midlife health.</p></div>
+    </section>
+
+    <section class="section" aria-labelledby="audience-title">
+      <div class="section-heading"><h2 class="section-title" id="audience-title">Audience &amp; Community</h2></div>
+      <p>MenoHello serves readers seeking clear, actionable information about perimenopause, menopause, hormone health, and midlife wellness. Search discovery is a meaningful part of how new readers find the platform, often through specific questions about symptoms and treatment options.</p>
+      <div class="audience-note">MenoHello reaches an English-language audience, with readership and search visibility extending beyond the United States. Geographic percentages are not included here because the available country data has not been validated for publication.</div>
+      <div class="social-stats">
+        <div class="social-card"><strong>3,569</strong><span>LinkedIn followers</span></div>
+        <div class="social-card"><strong>3,368</strong><span>LinkedIn connections</span></div>
+      </div>
+      <p class="muted" style="margin-top:9px;font-size:.7rem">LinkedIn figures are separate platform metrics, not combined into a unique audience total.</p>
+    </section>
+
+    <section class="section partnership" aria-labelledby="partnership-title">
+      <div class="section-heading"><h2 class="section-title" id="partnership-title">Partnership Opportunities</h2></div>
+      <p>MenoHello works with select brands and services whose offerings are relevant to midlife health and the needs of its readers. We welcome affiliate relationships that provide useful, appropriate resources within an established educational context.</p>
+      <div class="partnership-grid">
+        <div>
+          <h3>Potential collaborations</h3>
+          <ul>
+            <li>Relevant product and resource placements</li>
+            <li>Affiliate partnerships</li>
+            <li>Health, wellness, and telehealth resource discovery</li>
+            <li>Tools and services supporting midlife wellbeing</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Our editorial approach</h3>
+          <ul>
+            <li>Partnerships are selected for audience relevance.</li>
+            <li>Affiliate relationships are disclosed.</li>
+            <li>Editorial content remains independently developed.</li>
+            <li>We do not accept sponsored editorial content.</li>
+          </ul>
+        </div>
+      </div>
+      <div class="principle"><strong>Reader trust comes first.</strong> Commercial relationships do not determine MenoHello’s educational conclusions or editorial coverage.</div>
+    </section>
+
+    <section class="contact" aria-labelledby="contact-title">
+      <h2 id="contact-title">Let’s Connect</h2>
+      <p>Interested in an affiliate partnership or a relevant resource collaboration? We’d be glad to hear from you.</p>
+      <div class="contact-links">
+        <a href="mailto:sayhello@menohello.com">sayhello@menohello.com</a>
+        <a href="https://www.menohello.com" target="_blank" rel="noopener">menohello.com</a>
+        <a href="https://www.linkedin.com/in/theresamount/" target="_blank" rel="noopener">LinkedIn</a>
+      </div>
+    </section>
+    <footer class="footer"><p>MenoHello · Evidence-based menopause education &amp; practical midlife resources</p></footer>
+  </main>
+  <button class="print-button" type="button" onclick="window.print()" aria-label="Print or save this media kit as a PDF">Print / Save PDF</button>
+</body>
+</html>
